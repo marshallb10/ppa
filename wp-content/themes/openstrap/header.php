@@ -56,23 +56,23 @@
 				<?php endif;?>
 				<?php if(!empty($header_contact_mail)):?>
 					<span><i class="icon-envelope-alt"></i> <a href="mailto:<?php echo $header_contact_mail;?>"><?php echo $header_contact_mail;?></a></span>
-				<?php endif;?>				
+				<?php endif;?>
 				</div>
 				<div class="pull-right"  id="header-top-container">
 					<div class="pull-right">
-					<?php 
-						wp_nav_menu( array( 'theme_location' => 'secondary', 
-											'menu_class' => 'list-inline', 
-											'depth' =>1, 
-											'container' => false, 
-											'fallback_cb' => false ) ); 
+					<?php
+						wp_nav_menu( array( 'theme_location' => 'secondary',
+											'menu_class' => 'list-inline',
+											'depth' =>1,
+											'container' => false,
+											'fallback_cb' => false ) );
 					?>
 					</div>
 				</div>
-			</div>			
-		</div>	
+			</div>
+		</div>
 
-		<div class="container">		
+		<div class="container">
 		 <div class="row logo-row">
 		  <div class="col-md-4 pull-left">
 			<?php if ( $site_logo != '' ) : ?>
@@ -80,16 +80,16 @@
 			<?php elseif($site_logo == '' || !isset($site_logo)): ?>
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<small><?php bloginfo( 'description' ); ?></small>
-			<?php endif; ?>					
-		  </div>	  
+			<?php endif; ?>
+		  </div>
 		  <div class="col-md-8 hidden-xs">
 			<div class="pull-right">
 				<?php if ( is_active_sidebar( 'openstrap_header_right' ) ) : ?>
-					<?php dynamic_sidebar( 'openstrap_header_right' ); ?>	
-				<?php endif; ?>	
+					<?php dynamic_sidebar( 'openstrap_header_right' ); ?>
+				<?php endif; ?>
 			</div>
 		  </div>
-		</div>	  
+		</div>
 	
 	</header>
 	<?php endif; ?>
@@ -106,13 +106,13 @@
           <a class="navbar-brand visible-xs" href="<?php echo esc_url (home_url( '/' )); ?>"><i class="icon-home"></i></a>
         </div>
         <div class="navbar-collapse collapse">
-		<?php wp_nav_menu( array( 
-							'theme_location' => 'primary', 
-							'menu_class' => 'nav navbar-nav', 
+		<?php wp_nav_menu( array(
+							'theme_location' => 'primary',
+							'menu_class' => 'nav navbar-nav',
 							'depth' =>4,
-							'container' => false, 
-							'fallback_cb' => false, 
-							'walker' => new openstrap_theme_navigation() ) ); ?>	
+							'container' => false,
+							'fallback_cb' => false,
+							'walker' => new openstrap_theme_navigation() ) ); ?>
         </div><!--/.nav-collapse -->
       </div>
     </div>

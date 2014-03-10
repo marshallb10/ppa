@@ -136,15 +136,19 @@
 	<body <?php body_class(); ?>>
 
 		<div class="row container">
-			<div class="twelve columns">
+			<div class="twelve columns header">
 				<header role="banner" id="top-header">
 					
-					<div class="siteinfo">
-						<h1><a class="brand" id="logo" href="<?php echo get_bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
-						<h4 class="subhead"><?php echo get_bloginfo ( 'description' ); ?></h4>
+					<div class="four columns siteinfo">
+						<a href="<?php echo get_site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/ppa-logo.gif" /></a>
 					</div>
+
+          <div class="eight columns callout">
+            <p class="head">The bottom line is that insurance companies make money when they don't pay claims.</p>
+            <p>--Senior Executor, National Association of Insurance Commissioners</p>
+          </div>
 			
-					<?php bones_main_nav(); // Adjust using Menus in Wordpress Admin ?>
+
 
 					<div class="show-for-small menu-action">
 				  	    <a href="#sidebar" id="mobile-nav-button" class="sidebar-button small secondary button">
@@ -160,4 +164,6 @@
 					<?php bones_mobile_nav(); ?>
 
 				</header> <!-- end header -->
+
+        <?php bones_main_nav(); // Adjust using Menus in Wordpress Admin ?>
 			</div>
