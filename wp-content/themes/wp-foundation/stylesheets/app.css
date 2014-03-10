@@ -2678,6 +2678,7 @@ ul.tabs-content.contained.vertical > li {
   background: #4d4d4d;
   margin-top: 20px;
   padding: 0;
+  float: right;
 }
 /* line 8, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.0.4/stylesheets/foundation/navbar.scss */
 .nav-bar > li {
@@ -2686,7 +2687,7 @@ ul.tabs-content.contained.vertical > li {
   position: relative;
   padding: 0;
   margin: 0;
-  border: 1px solid #333333;
+  /*border: 1px solid #333333;*/
   border-right: none;
   line-height: 38px;
   -webkit-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset;
@@ -2701,29 +2702,33 @@ ul.tabs-content.contained.vertical > li {
 }
 /* line 11, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.0.4/stylesheets/foundation/navbar.scss */
 .nav-bar > li:last-child {
-  border-right: solid 1px #333333;
+  /*border-right: solid 1px #333333;*/
   -webkit-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2);
   -moz-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2);
   box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2);
 }
 /* line 13, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.0.4/stylesheets/foundation/navbar.scss */
 .nav-bar > li.active {
-  background: #2ba6cb;
-  border-color: #2284a1;
+  background: #FFFFFF;
+  border: 0;
 }
 /* line 14, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.0.4/stylesheets/foundation/navbar.scss */
 .nav-bar > li.active > a {
-  color: white;
+  text-decoration: underline;
   cursor: default;
+}
+
+.nav-bar > li.active > a:hover {
+  color: #004B8D;
 }
 /* line 15, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.0.4/stylesheets/foundation/navbar.scss */
 .nav-bar > li.active:hover {
-  background: #2ba6cb;
+  background: #FFFFFF;
   cursor: default;
 }
 /* line 17, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.0.4/stylesheets/foundation/navbar.scss */
 .nav-bar > li:hover {
-  background: #333333;
+  background: #FFFFFF;
 }
 /* line 19, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.0.4/stylesheets/foundation/navbar.scss */
 .nav-bar > li a {
@@ -2777,7 +2782,7 @@ ul.tabs-content.contained.vertical > li {
   position: relative;
   padding: 0 20px;
   display: block;
-  text-decoration: none;
+  /*text-decoration: none;*/
   font-size: 14px;
 }
 /* line 36, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.0.4/stylesheets/foundation/navbar.scss */

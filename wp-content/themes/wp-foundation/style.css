@@ -38,6 +38,39 @@ header .menu-action .button.small svg {
     opacity: 0.5;
 }
 
+header .callout {
+  background: #004b8e; /* Old browsers */
+  background: -moz-linear-gradient(left,  #004b8e 0%, #579bbe 100%, #7db9e8 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#004b8e), color-stop(100%,#579bbe), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #004b8e 0%,#579bbe 100%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #004b8e 0%,#579bbe 100%,#7db9e8 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #004b8e 0%,#579bbe 100%,#7db9e8 100%); /* IE10+ */
+  background: linear-gradient(to right,  #004b8e 0%,#579bbe 100%,#7db9e8 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004b8e', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+}
+
+header .callout p {
+  padding: 0 100px 0 30px;
+  margin: 0;
+}
+
+header .callout p.head {
+  color: #FFECB3;
+  font-size: 16px;
+  font-weight: bolder;
+  padding-top: 15px;
+}
+
+header .callout p.sub-text {
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+div.header header div{
+  height: 102px;
+  border-bottom: 6px solid #78A22F;
+}
+
 .mobile-nav-container{
 	margin-left: -100%;
 	float: left;

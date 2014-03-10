@@ -4,11 +4,11 @@
 
 						<div class="row">
 
-							<nav class="ten columns clearfix">
+							<nav class="8 columns clearfix">
 								<?php bones_footer_links(); ?>
 							</nav>
 
-							<p class="attribution two columns"><a href="http://320press.com" id="credit320" title="By the dudes of 320press">320press</a></p>
+							<p class="attribution four columns">&copy; 2014 Prospector Public Adjusters</p>
 
 						</div>
 
