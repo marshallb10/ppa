@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2054c69-76a6-4bba-8551-35a4243a51fc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp-foundation/stylesheets/app.css" afterPath="$PROJECT_DIR$/wp-content/themes/wp-foundation/stylesheets/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp-foundation/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp-foundation/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/openstrap/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/openstrap/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp-foundation/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp-foundation/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp-foundation/page-homepage.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp-foundation/page-homepage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp-foundation/page-left-sidebar.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp-foundation/page-left-sidebar.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp-foundation/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/wp-foundation/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -73,10 +74,10 @@
     <splitter split-orientation="vertical" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="106" column="9" selection-start="3772" selection-end="3772" vertical-scroll-proportion="-2.7959185" vertical-offset="1347" max-vertical-offset="2436">
+                <state line="163" column="2" selection-start="5744" selection-end="5744" vertical-scroll-proportion="0.904328" vertical-offset="1885" max-vertical-offset="2464">
                   <folding />
                 </state>
               </provider>
@@ -85,7 +86,7 @@
           <file leaf-file-name="bones.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/library/bones.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="97" column="32" selection-start="4155" selection-end="4162" vertical-scroll-proportion="-15.521739" vertical-offset="889" max-vertical-offset="3360">
+                <state line="97" column="32" selection-start="4155" selection-end="4162" vertical-scroll-proportion="0.0" vertical-offset="1358" max-vertical-offset="3472">
                   <folding />
                 </state>
               </provider>
@@ -94,21 +95,17 @@
           <file leaf-file-name="nav-menu-template.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-includes/nav-menu-template.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="215" column="9" selection-start="7402" selection-end="7402" vertical-scroll-proportion="-13.826087" vertical-offset="2608" max-vertical-offset="8862">
+                <state line="215" column="9" selection-start="7402" selection-end="7402" vertical-scroll-proportion="0.0" vertical-offset="3010" max-vertical-offset="8946">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="25" column="12" selection-start="431" selection-end="435" vertical-scroll-proportion="-0.155902" vertical-offset="420" max-vertical-offset="6132">
-                  <folding>
-                    <marker date="1394410710000" expanded="true" signature="1498:1541" placeholder="{...}" />
-                    <marker date="1394410710000" expanded="true" signature="1679:1719" placeholder="{...}" />
-                    <marker date="1394410710000" expanded="true" signature="1742:1798" placeholder="{...}" />
-                  </folding>
+                <state line="59" column="18" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.0" vertical-offset="434" max-vertical-offset="6146">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -116,7 +113,7 @@
           <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/functions.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="389" column="73" selection-start="15228" selection-end="15246" vertical-scroll-proportion="-5.2040815" vertical-offset="5093" max-vertical-offset="7966">
+                <state line="389" column="73" selection-start="15228" selection-end="15246" vertical-scroll-proportion="0.0" vertical-offset="5446" max-vertical-offset="8064">
                   <folding />
                 </state>
               </provider>
@@ -125,7 +122,7 @@
           <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/stylesheets/app.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2721" column="10" selection-start="95942" selection-end="95942" vertical-scroll-proportion="-12.038462" vertical-offset="37781" max-vertical-offset="55118">
+                <state line="2721" column="10" selection-start="95942" selection-end="95942" vertical-scroll-proportion="0.0" vertical-offset="38094" max-vertical-offset="55118">
                   <folding />
                 </state>
               </provider>
@@ -141,7 +138,7 @@
           <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/footer.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="40" selection-start="222" selection-end="222" vertical-scroll-proportion="-6.0869565" vertical-offset="0" max-vertical-offset="490">
+                <state line="10" column="40" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="490">
                   <folding />
                 </state>
               </provider>
@@ -154,7 +151,81 @@
           <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="68" column="22" selection-start="1743" selection-end="1743" vertical-scroll-proportion="0.506383" vertical-offset="714" max-vertical-offset="6132">
+                <state line="49" column="13" selection-start="1490" selection-end="1490" vertical-scroll-proportion="0.16385542" vertical-offset="618" max-vertical-offset="6146">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ppa-logo.gif" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/images/ppa-logo.gif">
+              <provider selected="true" editor-type-id="images">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="page.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/page.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="10" column="20" selection-start="356" selection-end="356" vertical-scroll-proportion="-6.0869565" vertical-offset="0" max-vertical-offset="840">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="page-homepage.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/page-homepage.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="24" column="25" selection-start="370" selection-end="370" vertical-scroll-proportion="-9.695652" vertical-offset="113" max-vertical-offset="742">
+                  <folding>
+                    <element signature="e#6#35#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="general-template.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="84" column="30" selection-start="2187" selection-end="2187" vertical-scroll-proportion="-4.7826085" vertical-offset="996" max-vertical-offset="34132">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ppa.sql" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/db/ppa.sql">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="143" column="7814" selection-start="13239" selection-end="13239" vertical-scroll-proportion="-3.64" vertical-offset="1911" max-vertical-offset="5404">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="sidebar.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/sidebar.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="336">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="page-left-sidebar.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/page-left-sidebar.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="30" column="2" selection-start="681" selection-end="681" vertical-scroll-proportion="-4.2173915" vertical-offset="323" max-vertical-offset="770">
+                  <folding>
+                    <element signature="e#6#44#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="plugin.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-includes/plugin.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="385" column="9" selection-start="13629" selection-end="13629" vertical-scroll-proportion="-2.347826" vertical-offset="5084" max-vertical-offset="11158">
                   <folding />
                 </state>
               </provider>
@@ -180,9 +251,12 @@
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/openstrap/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp-foundation/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp-foundation/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp-foundation/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp-foundation/stylesheets/app.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp-foundation/page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp-foundation/page-homepage.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp-foundation/page-left-sidebar.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp-foundation/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp-foundation/style.css" />
       </list>
     </option>
   </component>
@@ -218,6 +292,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -373,7 +448,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -425,19 +499,6 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -466,6 +527,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -479,9 +553,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -505,6 +576,9 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -518,12 +592,13 @@
       <created>1394399719513</created>
       <updated>1394399719513</updated>
       <workItem from="1394399723272" duration="663000" />
-      <workItem from="1394400405362" duration="11527000" />
+      <workItem from="1394400405362" duration="12124000" />
+      <workItem from="1394509236899" duration="3215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12190000" />
+    <option name="totallyTimeSpent" value="16002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
@@ -548,8 +623,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -571,25 +646,73 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/fix.sql">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="59" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="84">
+        <state line="106" column="9" selection-start="3772" selection-end="3772" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2436">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/library/bones.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="32" selection-start="4155" selection-end="4162" vertical-scroll-proportion="0.0" vertical-offset="1358" max-vertical-offset="3472">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/nav-menu-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="215" column="9" selection-start="7402" selection-end="7402" vertical-scroll-proportion="0.0" vertical-offset="3010" max-vertical-offset="8946">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="389" column="73" selection-start="15228" selection-end="15246" vertical-scroll-proportion="0.0" vertical-offset="5446" max-vertical-offset="8064">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/stylesheets/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2721" column="10" selection-start="95942" selection-end="95942" vertical-scroll-proportion="0.0" vertical-offset="38094" max-vertical-offset="55118">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/images/blendBackTop.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="40" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="490">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="18" selection-start="1604" selection-end="1604" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="6132">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/fix.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="59" selection-start="59" selection-end="59" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="84">
-          <folding />
-        </state>
+        <state line="0" column="59" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="84" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/fix.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="59" selection-start="59" selection-end="59" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="84" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-blog-header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="43" selection-start="189" selection-end="189" vertical-scroll-proportion="-4.2608695" vertical-offset="0" max-vertical-offset="280">
-          <folding />
-        </state>
+        <state line="11" column="43" selection-start="189" selection-end="189" vertical-scroll-proportion="-4.2608695" vertical-offset="0" max-vertical-offset="280" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-load.php">
@@ -601,28 +724,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/openstrap/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="4" selection-start="3445" selection-end="4339" vertical-scroll-proportion="1.1067538" vertical-offset="230" max-vertical-offset="1680">
-          <folding />
-        </state>
+        <state line="97" column="4" selection-start="3445" selection-end="4339" vertical-scroll-proportion="1.1067538" vertical-offset="230" max-vertical-offset="1680" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/theme.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="850" column="9" selection-start="26756" selection-end="26756" vertical-scroll-proportion="0.33333334" vertical-offset="11524" max-vertical-offset="26516">
-          <folding />
-        </state>
+        <state line="850" column="9" selection-start="26756" selection-end="26756" vertical-scroll-proportion="0.33333334" vertical-offset="11524" max-vertical-offset="26516" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-settings.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.518797" vertical-offset="3276" max-vertical-offset="5110">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/ppa.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="11" selection-start="521" selection-end="521" vertical-scroll-proportion="0.17283951" vertical-offset="0" max-vertical-offset="5404">
           <folding />
         </state>
       </provider>
@@ -638,11 +750,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/images/opportunity.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/images/ppa-logo.gif">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -689,49 +796,107 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="40" selection-start="222" selection-end="222" vertical-scroll-proportion="-6.0869565" vertical-offset="0" max-vertical-offset="490">
+        <state line="10" column="40" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="490">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/nav-menu-template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="215" column="9" selection-start="7402" selection-end="7402" vertical-scroll-proportion="-13.826087" vertical-offset="2608" max-vertical-offset="8862">
+        <state line="215" column="9" selection-start="7402" selection-end="7402" vertical-scroll-proportion="0.0" vertical-offset="3010" max-vertical-offset="8946">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/library/bones.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="32" selection-start="4155" selection-end="4162" vertical-scroll-proportion="-15.521739" vertical-offset="889" max-vertical-offset="3360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="9" selection-start="3772" selection-end="3772" vertical-scroll-proportion="-2.7959185" vertical-offset="1347" max-vertical-offset="2436">
+        <state line="97" column="32" selection-start="4155" selection-end="4162" vertical-scroll-proportion="0.0" vertical-offset="1358" max-vertical-offset="3472">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/stylesheets/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2721" column="10" selection-start="95942" selection-end="95942" vertical-scroll-proportion="-12.038462" vertical-offset="37781" max-vertical-offset="55118">
+        <state line="2721" column="10" selection-start="95942" selection-end="95942" vertical-scroll-proportion="0.0" vertical-offset="38094" max-vertical-offset="55118">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="389" column="73" selection-start="15228" selection-end="15246" vertical-scroll-proportion="-5.2040815" vertical-offset="5093" max-vertical-offset="7966">
+        <state line="389" column="73" selection-start="15228" selection-end="15246" vertical-scroll-proportion="0.0" vertical-offset="5446" max-vertical-offset="8064">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="20" selection-start="356" selection-end="356" vertical-scroll-proportion="-6.0869565" vertical-offset="0" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/page-homepage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="25" selection-start="370" selection-end="370" vertical-scroll-proportion="-9.695652" vertical-offset="113" max-vertical-offset="742">
+          <folding>
+            <element signature="e#6#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="385" column="9" selection-start="13629" selection-end="13629" vertical-scroll-proportion="-2.347826" vertical-offset="5084" max-vertical-offset="11158">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="30" selection-start="2187" selection-end="2187" vertical-scroll-proportion="-4.7826085" vertical-offset="996" max-vertical-offset="34132">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/ppa.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="143" column="7814" selection-start="13239" selection-end="13239" vertical-scroll-proportion="-3.64" vertical-offset="1911" max-vertical-offset="5404">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/page-left-sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="2" selection-start="681" selection-end="681" vertical-scroll-proportion="-4.2173915" vertical-offset="323" max-vertical-offset="770">
+          <folding>
+            <element signature="e#6#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/images/ppa-logo.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="163" column="2" selection-start="5744" selection-end="5744" vertical-scroll-proportion="0.904328" vertical-offset="1885" max-vertical-offset="2464">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="22" selection-start="1743" selection-end="1743" vertical-scroll-proportion="0.506383" vertical-offset="714" max-vertical-offset="6132">
+        <state line="49" column="13" selection-start="1490" selection-end="1490" vertical-scroll-proportion="0.16385542" vertical-offset="618" max-vertical-offset="6146">
           <folding />
         </state>
       </provider>

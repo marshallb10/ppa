@@ -164,6 +164,8 @@
 					<?php bones_mobile_nav(); ?>
 
 				</header> <!-- end header -->
+      </div>
+      <div class="twelve columns main-nav">
 
         <?php bones_main_nav(); // Adjust using Menus in Wordpress Admin ?>
 			</div>
