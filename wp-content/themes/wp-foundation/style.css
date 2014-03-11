@@ -47,6 +47,7 @@ header .callout {
   background: -ms-linear-gradient(left,  #004b8e 0%,#579bbe 100%,#7db9e8 100%); /* IE10+ */
   background: linear-gradient(to right,  #004b8e 0%,#579bbe 100%,#7db9e8 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004b8e', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+  height: 104px;
 }
 
 header .callout p {
@@ -66,9 +67,9 @@ header .callout p.sub-text {
   font-size: 14px;
 }
 
-div.header header div{
-  height: 102px;
+div.header {
   border-bottom: 6px solid #78A22F;
+  padding:0;
 }
 
 .mobile-nav-container{
