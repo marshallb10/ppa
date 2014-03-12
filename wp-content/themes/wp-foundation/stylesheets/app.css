@@ -2676,7 +2676,7 @@ ul.tabs-content.contained.vertical > li {
 .nav-bar {
   height: 40px;
   background: #4d4d4d;
-  margin-top: 20px;
+  /*margin-top: 20px;*/
   padding: 0;
   float: right;
 }

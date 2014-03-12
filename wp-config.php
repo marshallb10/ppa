@@ -26,7 +26,7 @@ define('DB_PASSWORD', 'Prospector69');
 
 /** MySQL hostname */
 //define('DB_HOST', 'javamarshall.cfdoc4ofne1x.us-west-2.rds.amazonaws.com');
-define('DB_HOST', 'localhost');
+define('DB_HOST', '127.0.0.1');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
