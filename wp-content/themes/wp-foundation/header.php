@@ -79,11 +79,9 @@
 
           <div class="eight columns callout">
             <p class="head">The bottom line is that insurance companies make money when they don't pay claims.</p>
-            <p>--Senior Executor, National Association of Insurance Commissioners</p>
+            <p class="sub-text">--Senior Executor, National Association of Insurance Commissioners</p>
           </div>
 			
-
-
 					<div class="show-for-small menu-action">
 				  	    <a href="#sidebar" id="mobile-nav-button" class="sidebar-button small secondary button">
 							<svg xml:space="preserve" enable-background="new 0 0 48 48" viewBox="0 0 48 48" height="18px" width="18px" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="Layer_1" version="1.1">
@@ -99,7 +97,7 @@
 
 				</header> <!-- end header -->
       </div>
-      <hr  />
+      <hr />
       <div class="twelve columns main-nav">
 
         <?php bones_main_nav(); // Adjust using Menus in Wordpress Admin ?>
