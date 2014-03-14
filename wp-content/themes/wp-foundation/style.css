@@ -67,20 +67,77 @@ header .callout p.sub-text {
   font-size: 14px;
 }
 
-/*div.header {*/
-  /*border-bottom: 6px solid #78A22F;*/
-  /*padding:0;*/
-/*}*/
+ul.top-nav {
+  background-color: #FFFFFF;
+}
 
-div.container hr {
-  width: 970px;
+ul.top-nav li a:first-child {
+  color: #004B8D;
+}
+
+ul.top-nav li a:hover, ul.top-nav li.active a, ul.top-nav li.active a:hover {
+  color: #78A22F;
+}
+
+div.row hr {
   border: 0;
   height: 6px;
   color: #78A22F;
-  background-color: white;
-  padding: 0;
-  margin: 0;
+  background-color: #78A22F;
+  margin: 0 15px;
 }
+
+div.homepage-callout hr {
+  color: #FDBE57;
+  background-color: #FDBE57;
+  height: 3px;
+}
+
+div.homepage-callout p {
+  text-align: center;
+  width: 90%;
+  margin: 0 5%;
+}
+
+div.homepage-callout span {
+  display: block;
+  text-align: center;
+  padding: 30px 0 10px 0;
+}
+
+div.gold-gradient {
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(left,  #ffffff 0%, #fdbe57 50%, #fdbe57 51%, #ffffff 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(50%,#fdbe57), color-stop(51%,#fdbe57), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #ffffff 0%,#fdbe57 50%,#fdbe57 51%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #ffffff 0%,#fdbe57 50%,#fdbe57 51%,#ffffff 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #ffffff 0%,#fdbe57 50%,#fdbe57 51%,#ffffff 100%); /* IE10+ */
+  background: linear-gradient(to right,  #ffffff 0%,#fdbe57 50%,#fdbe57 51%,#ffffff 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+  margin-top: 33px;
+  margin-bottom: 33px;
+}
+
+div.green-footer {
+  background-color: #78A22F;
+  height: 33px;
+  margin-bottom: 7px;
+}
+
+div.green-footer p {
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 13px;
+  padding-top: 3px;
+}
+
+div.footer-links ul li a, div.footer-links ul li a:visited, div.footer-links ul li a:hover {
+  color: #004B8D;
+}
+
+
 
 .mobile-nav-container{
 	margin-left: -100%;
@@ -418,6 +475,14 @@ a[class^='tag-link-']:hover{
 }
 
 @media only screen and (min-width: 768px) {
+  header .callout p {
+    padding-right: 50px;
+  }
+
+  header .callout p.sub-text {
+    padding-right: 0px;
+  }
+
 	ol.commentlist div.avatar{
 		margin-right: 0;
 	}

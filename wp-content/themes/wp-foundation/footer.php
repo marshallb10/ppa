@@ -1,4 +1,9 @@
 			<footer role="contentinfo">
+
+        <div class="twelve columns green-footer">
+          <p>Prospector Public Adjusters • Missouri License 8213167 | Erik Bauernfeind: Missouri State License 8213107 | Missouri Certificate of Authority for PPA F01250740<br />
+          Prospector Public Adjusters is state-licensed and regulated by the Missouri Department of Insurance</p>
+        </div>
 			
 					<div class="twelve columns">
 
