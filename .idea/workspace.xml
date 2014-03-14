@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2054c69-76a6-4bba-8551-35a4243a51fc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp-foundation/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp-foundation/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp-foundation/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp-foundation/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp-foundation/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/wp-foundation/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="f2054c69-76a6-4bba-8551-35a4243a51fc" name="Default" comment="" />
     <ignored path="ppa.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,7 +69,7 @@
           <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="93" column="16" selection-start="3966" selection-end="3966" vertical-scroll-proportion="-9.956522" vertical-offset="1073" max-vertical-offset="1540">
+                <state line="91" column="16" selection-start="3939" selection-end="3939" vertical-scroll-proportion="0.0" vertical-offset="1274" max-vertical-offset="1540">
                   <folding />
                 </state>
               </provider>
@@ -101,7 +96,7 @@
           <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="81" column="12" selection-start="1945" selection-end="1945" vertical-scroll-proportion="0.0" vertical-offset="1134" max-vertical-offset="7350">
+                <state line="138" column="0" selection-start="3620" selection-end="3620" vertical-scroll-proportion="0.0" vertical-offset="1932" max-vertical-offset="7350">
                   <folding />
                 </state>
               </provider>
@@ -132,11 +127,24 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/footer.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="27" column="59" selection-start="914" selection-end="914" vertical-scroll-proportion="0.9973615" vertical-offset="0" max-vertical-offset="560">
+                <state line="13" column="20" selection-start="546" selection-end="546" vertical-scroll-proportion="-7.9130435" vertical-offset="0" max-vertical-offset="560">
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="update.php" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/db/update.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="11" column="0" selection-start="242" selection-end="242" vertical-scroll-proportion="0.36930457" vertical-offset="0" max-vertical-offset="417">
+                  <folding>
+                    <marker date="1394809515000" expanded="true" signature="149:153" placeholder="drop table p..." />
+                    <marker date="1394809515000" expanded="true" signature="4:139" placeholder="INSERT INTO ..." />
+                    <marker date="1394809515000" expanded="true" signature="13:139" placeholder="SELECT t6.fi..table6..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -145,11 +153,25 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="135" column="90" selection-start="3597" selection-end="3597" vertical-scroll-proportion="0.74860334" vertical-offset="1622" max-vertical-offset="7350">
+                <state line="192" column="0" selection-start="4335" selection-end="4335" vertical-scroll-proportion="0.0" vertical-offset="2688" max-vertical-offset="7350">
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="wp-db.php" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wp-includes/wp-db.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="1146" column="19" selection-start="26496" selection-end="26496" vertical-scroll-proportion="0.38693467" vertical-offset="15778" max-vertical-offset="24612">
+                  <folding>
+                    <marker date="1394546219000" expanded="true" signature="17169:17462" placeholder="..." />
+                    <marker date="1394546219000" expanded="true" signature="24225:24342" placeholder="..." />
+                    <marker date="1394546219000" expanded="true" signature="24250:24332" placeholder="..." />
+                    <marker date="1394546219000" expanded="true" signature="27172:27370" placeholder="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -157,7 +179,7 @@
           <file leaf-file-name="options.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/options.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="102" column="23" selection-start="3600" selection-end="3606" vertical-scroll-proportion="-7.2608695" vertical-offset="1191" max-vertical-offset="1876">
+                <state line="102" column="23" selection-start="3600" selection-end="3606" vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="1946">
                   <folding />
                 </state>
               </provider>
@@ -209,7 +231,7 @@
           <file leaf-file-name="ppa.sql" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/db/ppa.sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="143" column="7814" selection-start="13241" selection-end="13241" vertical-scroll-proportion="0.0" vertical-offset="1911" max-vertical-offset="5404">
+                <state line="143" column="7814" selection-start="13239" selection-end="13239" vertical-scroll-proportion="0.0" vertical-offset="1911" max-vertical-offset="5404">
                   <folding />
                 </state>
               </provider>
@@ -280,14 +302,15 @@
         <option value="$PROJECT_DIR$/wp-content/themes/wp-foundation/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp-foundation/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp-foundation/style.css" />
+        <option value="$PROJECT_DIR$/db/update.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1680" />
-    <option name="height" value="878" />
+    <option name="width" value="2560" />
+    <option name="height" value="1414" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -317,8 +340,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -529,6 +550,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -580,6 +603,19 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -608,19 +644,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -634,6 +657,9 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -657,9 +683,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -679,56 +702,57 @@
       <workItem from="1394548306848" duration="89000" />
       <workItem from="1394581394954" duration="2866000" />
       <workItem from="1394757895146" duration="6662000" />
+      <workItem from="1394809062786" duration="416000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26896000" />
+    <option name="totallyTimeSpent" value="27312000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="878" extended-state="6" />
+    <frame x="0" y="22" width="2560" height="1414" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297953" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18928571" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1890625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297953" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18984374" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -744,7 +768,7 @@
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USERS">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
     </option>
   </component>
@@ -762,20 +786,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/page-homepage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="25" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="742">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="30" selection-start="2187" selection-end="2187" vertical-scroll-proportion="0.0" vertical-offset="1176" max-vertical-offset="34202">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/ppa.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state line="143" column="7814" selection-start="13239" selection-end="13239" vertical-scroll-proportion="0.0" vertical-offset="1911" max-vertical-offset="5404">
@@ -978,7 +988,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/ppa.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="7814" selection-start="13241" selection-end="13241" vertical-scroll-proportion="0.0" vertical-offset="1911" max-vertical-offset="5404">
+        <state line="143" column="7814" selection-start="13239" selection-end="13239" vertical-scroll-proportion="0.0" vertical-offset="1911" max-vertical-offset="5404">
           <folding />
         </state>
       </provider>
@@ -1044,7 +1054,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/options.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="23" selection-start="3600" selection-end="3606" vertical-scroll-proportion="-7.2608695" vertical-offset="1191" max-vertical-offset="1876">
+        <state line="102" column="23" selection-start="3600" selection-end="3606" vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="1946">
           <folding />
         </state>
       </provider>
@@ -1058,22 +1068,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="16" selection-start="3966" selection-end="3966" vertical-scroll-proportion="-9.956522" vertical-offset="1073" max-vertical-offset="1540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="59" selection-start="914" selection-end="914" vertical-scroll-proportion="0.9973615" vertical-offset="0" max-vertical-offset="560">
+        <state line="91" column="16" selection-start="3939" selection-end="3939" vertical-scroll-proportion="0.0" vertical-offset="1274" max-vertical-offset="1540">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="90" selection-start="3597" selection-end="3597" vertical-scroll-proportion="0.74860334" vertical-offset="1622" max-vertical-offset="7350">
+        <state line="138" column="0" selection-start="3620" selection-end="3620" vertical-scroll-proportion="0.0" vertical-offset="1932" max-vertical-offset="7350">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/wp-db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1146" column="19" selection-start="26496" selection-end="26496" vertical-scroll-proportion="0.38693467" vertical-offset="15778" max-vertical-offset="24612">
+          <folding>
+            <marker date="1394546219000" expanded="true" signature="17169:17462" placeholder="..." />
+            <marker date="1394546219000" expanded="true" signature="24225:24342" placeholder="..." />
+            <marker date="1394546219000" expanded="true" signature="24250:24332" placeholder="..." />
+            <marker date="1394546219000" expanded="true" signature="27172:27370" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="20" selection-start="546" selection-end="546" vertical-scroll-proportion="-7.9130435" vertical-offset="0" max-vertical-offset="560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="242" selection-end="242" vertical-scroll-proportion="0.36930457" vertical-offset="0" max-vertical-offset="417">
+          <folding>
+            <marker date="1394809515000" expanded="true" signature="149:153" placeholder="drop table p..." />
+            <marker date="1394809515000" expanded="true" signature="4:139" placeholder="INSERT INTO ..." />
+            <marker date="1394809515000" expanded="true" signature="13:139" placeholder="SELECT t6.fi..table6..." />
+          </folding>
         </state>
       </provider>
     </entry>
