@@ -72,7 +72,7 @@
 		<div class="row container">
 			<div class="twelve columns header">
 				<header role="banner" id="top-header">
-					
+
 					<div class="four columns siteinfo">
 						<a href="<?php echo get_site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/ppa-logo.gif" /></a>
 					</div>
@@ -81,8 +81,14 @@
             <p class="head">The bottom line is that insurance companies make money when they don't pay claims.</p>
             <p class="sub-text">--Senior Executor, National Association of Insurance Commissioners</p>
           </div>
-			
-					<div class="show-for-small menu-action">
+
+
+
+				</header> <!-- end header -->
+      </div>
+      <hr />
+
+      					<div class="show-for-small menu-action">
 				  	    <a href="#sidebar" id="mobile-nav-button" class="sidebar-button small secondary button">
 							<svg xml:space="preserve" enable-background="new 0 0 48 48" viewBox="0 0 48 48" height="18px" width="18px" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="Layer_1" version="1.1">
 								<line y2="8.907" x2="48" y1="8.907" x1="0" stroke-miterlimit="10" stroke-width="8" stroke="#000000" fill="none"/>
@@ -93,11 +99,8 @@
 						</a>
 					</div>
 
-					<?php bones_mobile_nav(); ?>
+      <?php bones_mobile_nav(); ?>
 
-				</header> <!-- end header -->
-      </div>
-      <hr />
       <div class="twelve columns main-nav">
 
         <?php bones_main_nav(); // Adjust using Menus in Wordpress Admin ?>
