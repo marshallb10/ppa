@@ -23,18 +23,22 @@ article.post{
 	border-bottom: 1px solid #E6E6E6;
 }
 
-header .menu-action {
+div.siteinfo {
+  text-align: center;
+}
+
+div.mini-menu .menu-action {
     float: left;
     margin-top: 0;
     position: relative;
     top: 1px;
 }
 
-header .menu-action .button.small {
+div.mini-menu .menu-action .button.small {
     padding: 8px;
 }
 
-header .menu-action .button.small svg {
+div.mini-menu .menu-action .button.small svg {
     opacity: 0.5;
 }
 
@@ -468,6 +472,10 @@ li.next{
 	text-align: right;
 }
 
+img.sidebar-img {
+  padding-bottom: 10px;
+}
+
 #sidebar1 .metadata,
 #sidebar1 .caption{
 	padding-bottom: 20px;
@@ -501,6 +509,20 @@ li.next{
 
 a[class^='tag-link-']:hover{
 	color: #f0f0f0;
+}
+
+@media only screen and (max-width: 767px) {
+  header .callout {
+    height: 100%;
+  }
+
+  header .callout p {
+    padding-right: 20px;
+  }
+
+  header .callout p.sub-text {
+    padding-bottom: 20px;
+  }
 }
 
 @media only screen and (min-width: 768px) {

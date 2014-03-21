@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2054c69-76a6-4bba-8551-35a4243a51fc" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp-foundation/javascripts/app.js" afterPath="$PROJECT_DIR$/wp-content/themes/wp-foundation/javascripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp-foundation/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp-foundation/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp-foundation/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp-foundation/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp-foundation/javascripts/foundation/jquery.customforms.js" afterPath="$PROJECT_DIR$/wp-content/themes/wp-foundation/javascripts/foundation/jquery.customforms.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp-foundation/javascripts/jquery.min.js" afterPath="$PROJECT_DIR$/wp-content/themes/wp-foundation/javascripts/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp-foundation/javascripts/foundation/jquery.orbit-1.4.0.js" afterPath="$PROJECT_DIR$/wp-content/themes/wp-foundation/javascripts/foundation/jquery.orbit-1.4.0.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp-foundation/javascripts/foundation/jquery.placeholder.min.js" afterPath="$PROJECT_DIR$/wp-content/themes/wp-foundation/javascripts/foundation/jquery.placeholder.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp-foundation/javascripts/foundation/jquery.reveal.js" afterPath="$PROJECT_DIR$/wp-content/themes/wp-foundation/javascripts/foundation/jquery.reveal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp-foundation/javascripts/foundation/jquery.tooltips.js" afterPath="$PROJECT_DIR$/wp-content/themes/wp-foundation/javascripts/foundation/jquery.tooltips.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp-foundation/javascripts/foundation/modernizr.foundation.js" afterPath="$PROJECT_DIR$/wp-content/themes/wp-foundation/javascripts/foundation/modernizr.foundation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp-foundation/javascripts/foundation/off-canvas.js" afterPath="$PROJECT_DIR$/wp-content/themes/wp-foundation/javascripts/foundation/off-canvas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp-foundation/sidebar.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp-foundation/sidebar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp-foundation/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/wp-foundation/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ppa.iws" />
@@ -36,8 +48,8 @@
         <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -53,8 +65,8 @@
         <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
@@ -66,219 +78,125 @@
     <favorites_list name="ppa" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/header.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="101" column="34" selection-start="4063" selection-end="4063" vertical-scroll-proportion="0.95583594" vertical-offset="808" max-vertical-offset="1582">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="bones.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/library/bones.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="97" column="32" selection-start="4155" selection-end="4162" vertical-scroll-proportion="0.0" vertical-offset="1358" max-vertical-offset="3472">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="nav-menu-template.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-includes/nav-menu-template.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="215" column="9" selection-start="7402" selection-end="7402" vertical-scroll-proportion="0.0" vertical-offset="3010" max-vertical-offset="8946">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="138" column="0" selection-start="3625" selection-end="3625" vertical-scroll-proportion="0.0" vertical-offset="1932" max-vertical-offset="7756">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/functions.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="389" column="73" selection-start="15228" selection-end="15246" vertical-scroll-proportion="0.0" vertical-offset="5446" max-vertical-offset="8064">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/stylesheets/app.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="443" column="18" selection-start="14395" selection-end="14395" vertical-scroll-proportion="0.0" vertical-offset="6665" max-vertical-offset="55118">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="blendBackTop.jpg" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/images/blendBackTop.jpg">
-              <provider selected="true" editor-type-id="images">
-                <state />
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/footer.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="20" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="560">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="update.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/db/update.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="0" selection-start="242" selection-end="242" vertical-scroll-proportion="-6.695652" vertical-offset="0" max-vertical-offset="280">
-                  <folding>
-                    <marker date="1394809515000" expanded="true" signature="4:139" placeholder="INSERT INTO ..." />
-                    <marker date="1394809515000" expanded="true" signature="13:139" placeholder="SELECT t6.fi..table6..." />
-                    <marker date="1394809515000" expanded="true" signature="149:153" placeholder="drop table p..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="80" column="0" selection-start="1932" selection-end="1932" vertical-scroll-proportion="1.481595" vertical-offset="154" max-vertical-offset="7756">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="wp-db.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-includes/wp-db.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="1146" column="19" selection-start="26496" selection-end="26496" vertical-scroll-proportion="0.0" vertical-offset="16044" max-vertical-offset="24724">
-                  <folding>
-                    <marker date="1394546219000" expanded="true" signature="17169:17462" placeholder="..." />
-                    <marker date="1394546219000" expanded="true" signature="24225:24342" placeholder="..." />
-                    <marker date="1394546219000" expanded="true" signature="24250:24332" placeholder="..." />
-                    <marker date="1394546219000" expanded="true" signature="27172:27370" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="options.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/options.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="102" column="23" selection-start="3600" selection-end="3606" vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="1946">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ppa-logo.gif" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/images/ppa-logo.gif">
-              <provider selected="true" editor-type-id="images">
-                <state />
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="page.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/page.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="56" max-vertical-offset="756">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="page-full-width.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/page-full-width.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="0" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="224" max-vertical-offset="630">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="page-homepage.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/page-homepage.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="24" column="25" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="742">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="general-template.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="23" column="9" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="322" max-vertical-offset="34202">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ppa.sql" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/db/ppa.sql">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="143" column="7814" selection-start="13239" selection-end="13239" vertical-scroll-proportion="0.0" vertical-offset="1911" max-vertical-offset="5404">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="sidebar.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/sidebar.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="47" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="sidebar-sidebar2.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/sidebar-sidebar2.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="page-left-sidebar.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/page-left-sidebar.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="-0.5652174" vertical-offset="29" max-vertical-offset="658">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="plugin.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-includes/plugin.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="385" column="9" selection-start="13629" selection-end="13629" vertical-scroll-proportion="0.0" vertical-offset="5390" max-vertical-offset="11410">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="4" selection-start="1600" selection-end="1726" vertical-scroll-proportion="20.086956" vertical-offset="868" max-vertical-offset="1820">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bones.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/library/bones.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="97" column="32" selection-start="4155" selection-end="4162" vertical-scroll-proportion="0.0" vertical-offset="1358" max-vertical-offset="3472">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav-menu-template.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-includes/nav-menu-template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="215" column="9" selection-start="7402" selection-end="7402" vertical-scroll-proportion="0.0" vertical-offset="3010" max-vertical-offset="8946">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="off-canvas.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/javascripts/foundation/off-canvas.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="25" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="23" max-vertical-offset="784">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="120" column="0" selection-start="3897" selection-end="5001" vertical-scroll-proportion="0.0" vertical-offset="1568" max-vertical-offset="8064">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/stylesheets/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="694" column="6" selection-start="22414" selection-end="22420" vertical-scroll-proportion="0.0" vertical-offset="9461" max-vertical-offset="55118">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1078">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="general-template.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1633" column="9" selection-start="55837" selection-end="55837" vertical-scroll-proportion="3.0434783" vertical-offset="22862" max-vertical-offset="34132">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="475" column="20" selection-start="8480" selection-end="8480" vertical-scroll-proportion="0.20986094" vertical-offset="6484" max-vertical-offset="8064">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/sidebar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="153" selection-start="229" selection-end="229" vertical-scroll-proportion="-1.2173913" vertical-offset="0" max-vertical-offset="364">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-homepage.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/page-homepage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="25" selection-start="370" selection-end="370" vertical-scroll-proportion="-13.391304" vertical-offset="0" max-vertical-offset="714">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-full-width.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/page-full-width.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="295" selection-end="295" vertical-scroll-proportion="-8.521739" vertical-offset="0" max-vertical-offset="602">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plugin.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-includes/plugin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="435" column="3" selection-start="14836" selection-end="14836" vertical-scroll-proportion="0.0" vertical-offset="6090" max-vertical-offset="11410">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -296,7 +214,6 @@
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/openstrap/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp-foundation/page-homepage.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp-foundation/sidebar.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp-foundation/page-left-sidebar.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp-foundation/page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp-foundation/page-full-width.php" />
@@ -304,16 +221,19 @@
         <option value="$PROJECT_DIR$/wp-content/themes/wp-foundation/options.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp-foundation/footer.php" />
         <option value="$PROJECT_DIR$/db/update.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp-foundation/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp-foundation/javascripts/foundation/off-canvas.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp-foundation/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp-foundation/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp-foundation/sidebar.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp-foundation/style.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="2560" />
-    <option name="height" value="1414" />
+    <option name="width" value="1440" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -519,6 +439,62 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ppa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ppa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-foundation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foundation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ppa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ppa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-foundation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -561,7 +537,7 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="reference.settingsdialog.project.gradle" />
+    <property name="options.lastSelected" value="Configurable.PHP" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
@@ -570,6 +546,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../inversoft/www.inversoft.com/www.inversoft.com.ipr" />
+    <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -577,7 +554,12 @@
       <recent name="$PROJECT_DIR$/wp-content/themes/wp-foundation" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.header.php">
+    <configuration default="false" name="header.php" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/ppa/wp-content/themes/wp-foundation/header.php">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -586,6 +568,10 @@
       <setting name="passParentEnv" value="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -600,6 +586,19 @@
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -630,17 +629,22 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -664,136 +668,14 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browserFamily" value="FIREFOX" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browserFamily" value="FIREFOX" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.header.php" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.header.php" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -815,40 +697,44 @@
       <workItem from="1394809062786" duration="1294000" />
       <workItem from="1395065902235" duration="2360000" />
       <workItem from="1395095449093" duration="2699000" />
+      <workItem from="1395168721572" duration="11178000" />
+      <workItem from="1395349435307" duration="390000" />
+      <workItem from="1395413282593" duration="520000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33249000" />
+    <option name="totallyTimeSpent" value="45337000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="2560" height="1414" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1890625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18888889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="258" y="338" width="881" height="530" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297953" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -862,7 +748,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18984374" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18888889" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -870,7 +756,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297953" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -880,7 +766,7 @@
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
+    <option name="RECENTLY_FILTERED_USERS">
       <collection />
     </option>
   </component>
@@ -894,29 +780,32 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/themes/wp-foundation/header.php</url>
+          <line>73</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-includes/plugin.php</url>
+          <line>386</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/ppa.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="7814" selection-start="13239" selection-end="13239" vertical-scroll-proportion="0.0" vertical-offset="1911" max-vertical-offset="5404">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/page-left-sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="2" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="770">
-          <folding />
-        </state>
+        <state line="30" column="2" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="770" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/plugin.php">
@@ -968,9 +857,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="40" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="490">
-          <folding />
-        </state>
+        <state line="10" column="40" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="490" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/style.css">
@@ -1065,14 +952,64 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/wp-db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1146" column="19" selection-start="26496" selection-end="26496" vertical-scroll-proportion="-0.3119777" vertical-offset="16044" max-vertical-offset="24612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/options.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="23" selection-start="3600" selection-end="3606" vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="1946" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/images/ppa-logo.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="56" max-vertical-offset="756" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/sidebar-sidebar2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="652" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/page-left-sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="686" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="242" selection-end="242" vertical-scroll-proportion="0.1971831" vertical-offset="0" max-vertical-offset="781" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="20" selection-start="546" selection-end="546" vertical-scroll-proportion="0.23303457" vertical-offset="0" max-vertical-offset="781" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/images/blendBackTop.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/nav-menu-template.php">
+    <entry file="file://$PROJECT_DIR$/db/ppa.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="215" column="9" selection-start="7402" selection-end="7402" vertical-scroll-proportion="0.0" vertical-offset="3010" max-vertical-offset="8946">
+        <state line="151" column="35" selection-start="401611" selection-end="401611" vertical-scroll-proportion="0.53571427" vertical-offset="1934" max-vertical-offset="5404" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1078">
           <folding />
         </state>
       </provider>
@@ -1084,140 +1021,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/functions.php">
+    <entry file="file://$PROJECT_DIR$/wp-includes/nav-menu-template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="389" column="73" selection-start="15228" selection-end="15246" vertical-scroll-proportion="0.0" vertical-offset="5446" max-vertical-offset="8064">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/page-homepage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="25" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="742">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/ppa.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="7814" selection-start="13239" selection-end="13239" vertical-scroll-proportion="0.0" vertical-offset="1911" max-vertical-offset="5404">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/images/ppa-logo.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/plugin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="385" column="9" selection-start="13629" selection-end="13629" vertical-scroll-proportion="0.0" vertical-offset="5390" max-vertical-offset="11410">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/sidebar-sidebar2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="652">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="47" selection-start="43" selection-end="43" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="336">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="56" max-vertical-offset="756">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="9" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="322" max-vertical-offset="34202">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/page-full-width.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="224" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/options.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="23" selection-start="3600" selection-end="3606" vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="1946">
+        <state line="215" column="9" selection-start="7402" selection-end="7402" vertical-scroll-proportion="0.0" vertical-offset="3010" max-vertical-offset="8946">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/stylesheets/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="443" column="18" selection-start="14395" selection-end="14395" vertical-scroll-proportion="0.0" vertical-offset="6665" max-vertical-offset="55118">
+        <state line="694" column="6" selection-start="22414" selection-end="22420" vertical-scroll-proportion="0.0" vertical-offset="9461" max-vertical-offset="55118">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/footer.php">
+    <entry file="file://$PROJECT_DIR$/wp-includes/plugin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="20" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="560">
+        <state line="435" column="3" selection-start="14836" selection-end="14836" vertical-scroll-proportion="0.0" vertical-offset="6090" max-vertical-offset="11410">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/update.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/javascripts/foundation/off-canvas.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="242" selection-end="242" vertical-scroll-proportion="-6.695652" vertical-offset="0" max-vertical-offset="280">
-          <folding>
-            <marker date="1394809515000" expanded="true" signature="4:139" placeholder="INSERT INTO ..." />
-            <marker date="1394809515000" expanded="true" signature="13:139" placeholder="SELECT t6.fi..table6..." />
-            <marker date="1394809515000" expanded="true" signature="149:153" placeholder="drop table p..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/wp-db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1146" column="19" selection-start="26496" selection-end="26496" vertical-scroll-proportion="0.0" vertical-offset="16044" max-vertical-offset="24724">
-          <folding>
-            <marker date="1394546219000" expanded="true" signature="17169:17462" placeholder="..." />
-            <marker date="1394546219000" expanded="true" signature="24225:24342" placeholder="..." />
-            <marker date="1394546219000" expanded="true" signature="24250:24332" placeholder="..." />
-            <marker date="1394546219000" expanded="true" signature="27172:27370" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/page-left-sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="-0.5652174" vertical-offset="29" max-vertical-offset="658">
+        <state line="10" column="25" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="23" max-vertical-offset="784">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/style.css">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="0" selection-start="3625" selection-end="3625" vertical-scroll-proportion="0.0" vertical-offset="1932" max-vertical-offset="7756">
+        <state line="120" column="0" selection-start="3897" selection-end="5001" vertical-scroll-proportion="0.0" vertical-offset="1568" max-vertical-offset="8064">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="34" selection-start="4063" selection-end="4063" vertical-scroll-proportion="0.95583594" vertical-offset="808" max-vertical-offset="1582">
+        <state line="29" column="4" selection-start="1600" selection-end="1726" vertical-scroll-proportion="20.086956" vertical-offset="868" max-vertical-offset="1820">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/page-full-width.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="295" selection-end="295" vertical-scroll-proportion="-8.521739" vertical-offset="0" max-vertical-offset="602">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/page-homepage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="25" selection-start="370" selection-end="370" vertical-scroll-proportion="-13.391304" vertical-offset="0" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1633" column="9" selection-start="55837" selection-end="55837" vertical-scroll-proportion="3.0434783" vertical-offset="22862" max-vertical-offset="34132">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="153" selection-start="229" selection-end="229" vertical-scroll-proportion="-1.2173913" vertical-offset="0" max-vertical-offset="364">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-foundation/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="475" column="20" selection-start="8480" selection-end="8480" vertical-scroll-proportion="0.20986094" vertical-offset="6484" max-vertical-offset="8064">
           <folding />
         </state>
       </provider>
