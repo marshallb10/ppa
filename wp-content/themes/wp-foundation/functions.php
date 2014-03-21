@@ -4,7 +4,7 @@ Author: Eddie Machado
 URL: htp://themble.com/bones/
 
 This is where you can drop your custom functions or
-just edit things like thumbnail sizes, header images, 
+just edit things like thumbnail sizes, header images,
 sidebars, comments, ect.
 */
 
@@ -37,8 +37,8 @@ add_image_size( 'wpf-featured', 639, 300, true );
 add_image_size ( 'wpf-home-featured', 970, 364, true );
 add_image_size( 'bones-thumb-600', 600, 150, false );
 add_image_size( 'bones-thumb-300', 300, 100, true );
-/* 
-to add more sizes, simply copy a line from above 
+/*
+to add more sizes, simply copy a line from above
 and change the dimensions & name. As long as you
 upload a "featured image" as large as the biggest
 set width or height, all the other sizes will be
@@ -47,7 +47,7 @@ auto-cropped.
 To call a different size, simply change the text
 inside the thumbnail function.
 
-For example, to call the 300 x 300 sized image, 
+For example, to call the 300 x 300 sized image,
 we would use the function:
 <?php the_post_thumbnail( 'bones-thumb-300' ); ?>
 for the 600 x 100 image:
@@ -70,7 +70,7 @@ function bones_register_sidebars() {
     	'before_title' => '<h4 class="widgettitle">',
     	'after_title' => '</h4>',
     ));
-    
+
     register_sidebar(array(
     	'id' => 'sidebar2',
     	'name' => 'Homepage Sidebar',
@@ -80,34 +80,34 @@ function bones_register_sidebars() {
     	'before_title' => '<h4 class="widgettitle">',
     	'after_title' => '</h4>',
     ));
-    
-    /* 
+
+    /*
     to add more sidebars or widgetized areas, just copy
-    and edit the above sidebar code. In order to call 
+    and edit the above sidebar code. In order to call
     your new sidebar just use the following code:
-    
+
     Just change the name to whatever your new
     sidebar's id is, for example:
-    
-    
-    
+
+
+
     To call the sidebar in your template, you can just copy
     the sidebar.php file and rename it to your sidebar's name.
     So using the above example, it would be:
     sidebar-sidebar2.php
-    
+
     */
 } // don't remove this bracket!
 
 /************* ENQUEUE CSS AND JS *****************/
 
-function theme_styles()  
-{ 
+function theme_styles()
+{
     // Bring in Open Sans from Google fonts
     wp_register_style( 'open-sans', 'http://fonts.googleapis.com/css?family=Open+Sans:300,800');
     // This is the compiled css file from SCSS
     wp_register_style( 'foundation-app', get_template_directory_uri() . '/stylesheets/app.css', array(), '3.0', 'all' );
-    
+
     wp_enqueue_style( 'open-sans' );
     wp_enqueue_style( 'foundation-app' );
 }
@@ -118,50 +118,50 @@ add_action('wp_enqueue_scripts', 'theme_styles');
 
 /* pull jquery from google's CDN. If it's not available, grab the local copy. Code from wp.tutsplus.com :-) */
 
-$url = 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'; // the URL to check against  
-$test_url = @fopen($url,'r'); // test parameters  
-if( $test_url !== false ) { // test if the URL exists  
-
-    function load_external_jQuery() { // load external file  
-        wp_deregister_script( 'jquery' ); // deregisters the default WordPress jQuery  
-        wp_register_script('jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'); // register the external file  
-        wp_enqueue_script('jquery'); // enqueue the external file  
-    }  
-
-    add_action('wp_enqueue_scripts', 'load_external_jQuery'); // initiate the function  
-} else {  
-
-    function load_local_jQuery() {  
-        wp_deregister_script('jquery'); // initiate the function  
-        wp_register_script('jquery', bloginfo('template_url').'/javascripts/jquery.min.js', __FILE__, false, '1.7.2', true); // register the local file  
-        wp_enqueue_script('jquery'); // enqueue the local file  
-    }  
-
-    add_action('wp_enqueue_scripts', 'load_local_jQuery'); // initiate the function  
-}  
+//$url = 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'; // the URL to check against
+//$test_url = @fopen($url,'r'); // test parameters
+//if( $test_url !== false ) { // test if the URL exists
+//
+//    function load_external_jQuery() { // load external file
+//        wp_deregister_script( 'jquery' ); // deregisters the default WordPress jQuery
+//        wp_register_script('jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'); // register the external file
+//        wp_enqueue_script('jquery'); // enqueue the external file
+//    }
+//
+//    add_action('wp_enqueue_scripts', 'load_external_jQuery'); // initiate the function
+//} else {
+//
+//    function load_local_jQuery() {
+//        wp_deregister_script('jquery'); // initiate the function
+//        wp_register_script('jquery', bloginfo('template_url').'/javascripts/jquery.min.js', __FILE__, false, '1.7.2', true); // register the local file
+//        wp_enqueue_script('jquery'); // enqueue the local file
+//    }
+//
+//    add_action('wp_enqueue_scripts', 'load_local_jQuery'); // initiate the function
+//}
 
 /* load modernizr from foundation */
 function modernize_it(){
-    wp_register_script( 'modernizr', get_template_directory_uri() . '/javascripts/foundation/modernizr.foundation.js' ); 
+    wp_register_script( 'modernizr', get_template_directory_uri() . '/javascripts/foundation/modernizr.foundation.js' );
     wp_enqueue_script( 'modernizr' );
 }
 
 add_action( 'wp_enqueue_scripts', 'modernize_it' );
 
 function foundation_js(){
-    wp_register_script( 'foundation-reveal', get_template_directory_uri() . '/javascripts/foundation/jquery.reveal.js' ); 
+    wp_register_script( 'foundation-reveal', get_template_directory_uri() . '/javascripts/foundation/jquery.reveal.js' );
     wp_enqueue_script( 'foundation-reveal', 'jQuery', '1.1', true );
-    wp_register_script( 'foundation-orbit', get_template_directory_uri() . '/javascripts/foundation/jquery.orbit-1.4.0.js' ); 
+    wp_register_script( 'foundation-orbit', get_template_directory_uri() . '/javascripts/foundation/jquery.orbit-1.4.0.js' );
     wp_enqueue_script( 'foundation-orbit', 'jQuery', '1.4.0', true );
-    wp_register_script( 'foundation-custom-forms', get_template_directory_uri() . '/javascripts/foundation/jquery.customforms.js' ); 
+    wp_register_script( 'foundation-custom-forms', get_template_directory_uri() . '/javascripts/foundation/jquery.customforms.js' );
     wp_enqueue_script( 'foundation-custom-forms', 'jQuery', '1.0', true );
-    wp_register_script( 'foundation-placeholder', get_template_directory_uri() . '/javascripts/foundation/jquery.placeholder.min.js' ); 
+    wp_register_script( 'foundation-placeholder', get_template_directory_uri() . '/javascripts/foundation/jquery.placeholder.min.js' );
     wp_enqueue_script( 'foundation-placeholder', 'jQuery', '2.0.7', true );
-    wp_register_script( 'foundation-tooltips', get_template_directory_uri() . '/javascripts/foundation/jquery.tooltips.js' ); 
+    wp_register_script( 'foundation-tooltips', get_template_directory_uri() . '/javascripts/foundation/jquery.tooltips.js' );
     wp_enqueue_script( 'foundation-tooltips', 'jQuery', '2.0.1', true );
-    wp_register_script( 'foundation-app', get_template_directory_uri() . '/javascripts/app.js' ); 
+    wp_register_script( 'foundation-app', get_template_directory_uri() . '/javascripts/app.js' );
     wp_enqueue_script( 'foundation-app', 'jQuery', '1.0', true );
-    wp_register_script( 'foundation-off-canvas', get_template_directory_uri() . '/javascripts/foundation/off-canvas.js' ); 
+    wp_register_script( 'foundation-off-canvas', get_template_directory_uri() . '/javascripts/foundation/off-canvas.js' );
     wp_enqueue_script( 'foundation-off-canvas', 'jQuery', '1.0', true );
 }
 
@@ -175,7 +175,7 @@ function wp_foundation_js(){
 add_action('wp_enqueue_scripts', 'wp_foundation_js');
 
 /************* COMMENT LAYOUT *********************/
-		
+
 // Comment Layout
 function bones_comments($comment, $args, $depth) {
    $GLOBALS['comment'] = $comment; ?>
@@ -186,7 +186,7 @@ function bones_comments($comment, $args, $depth) {
                     <div class="
                         <?php
                         $authID = get_the_author_meta('ID');
-                                                    
+
                         if($authID == $comment->user_id)
                             echo "panel callout";
                         else
@@ -200,17 +200,17 @@ function bones_comments($comment, $args, $depth) {
             				<div class="ten columns">
             					<?php printf(__('<h4 class="span8">%s</h4>'), get_comment_author_link()) ?>
             					<time datetime="<?php echo comment_time('Y-m-j'); ?>"><a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ) ?>"><?php comment_time('F jS, Y'); ?> </a></time>
-            					
+
             					<?php edit_comment_link(__('Edit'),'<span class="edit-comment">', '</span>'); ?>
-                                
+
                                 <?php if ($comment->comment_approved == '0') : ?>
                    					<div class="alert-box success">
                       					<?php _e('Your comment is awaiting moderation.') ?>
                       				</div>
             					<?php endif; ?>
-                                
+
                                 <?php comment_text() ?>
-                                
+
                                 <!-- removing reply link on each comment since we're not nesting them -->
             					<?php comment_reply_link(array_merge( $args, array('depth' => $depth, 'max_depth' => $args['max_depth']))) ?>
                             </div>
@@ -347,7 +347,7 @@ function custom_wp_nav_menu($var) {
 add_filter('nav_menu_css_class', 'custom_wp_nav_menu');
 add_filter('nav_menu_item_id', 'custom_wp_nav_menu');
 add_filter('page_css_class', 'custom_wp_nav_menu');
- 
+
 //Replaces "current-menu-item" with "active"
 function current_to_active($text){
         $replace = array(
@@ -360,7 +360,7 @@ function current_to_active($text){
                 return $text;
         }
 add_filter ('wp_nav_menu','current_to_active');
- 
+
 //Deletes empty classes and removes the sub menu class
 function strip_empty_classes($menu) {
     $menu = preg_replace('/ class=""| class="sub-menu"/','',$menu);
@@ -377,19 +377,19 @@ class description_walker extends Walker_Nav_Menu
       {
             global $wp_query;
             $indent = ( $depth ) ? str_repeat( "\t", $depth ) : '';
-            
+
             $class_names = $value = '';
-            
+
             // If the item has children, add the dropdown class for foundation
             if ( $args->has_children ) {
                 $class_names = "has-flyout ";
             }
-            
+
             $classes = empty( $item->classes ) ? array() : (array) $item->classes;
-            
+
             $class_names .= join( ' ', apply_filters( 'nav_menu_css_class', array_filter( $classes ), $item ) );
             $class_names = ' class="'. esc_attr( $class_names ) . '"';
-           
+
             $output .= $indent . '<li id="menu-item-'. $item->ID . '"' . $value . $class_names .'>';
 
             $attributes  = ! empty( $item->attr_title ) ? ' title="'  . esc_attr( $item->attr_title ) .'"' : '';
@@ -416,12 +416,12 @@ class description_walker extends Walker_Nav_Menu
 
             $output .= apply_filters( 'walker_nav_menu_start_el', $item_output, $item, $depth, $args );
             }
-            
+
         function start_lvl(&$output, $depth) {
             $indent = str_repeat("\t", $depth);
             $output .= "\n$indent<ul class=\"flyout\">\n";
         }
-            
+
         function display_element( $element, &$children_elements, $max_depth, $depth=0, $args, &$output )
             {
                 $id_field = $this->db_fields['id'];
@@ -429,7 +429,7 @@ class description_walker extends Walker_Nav_Menu
                     $args[0]->has_children = ! empty( $children_elements[$element->$id_field] );
                 }
                 return parent::display_element( $element, $children_elements, $max_depth, $depth, $args, $output );
-            }       
+            }
 }
 
 // Walker class to customize footer links
@@ -439,14 +439,14 @@ class footer_links_walker extends Walker_Nav_Menu
       {
             global $wp_query;
             $indent = ( $depth ) ? str_repeat( "\t", $depth ) : '';
-            
+
             $class_names = $value = '';
-            
+
             $classes = empty( $item->classes ) ? array() : (array) $item->classes;
-            
+
             $class_names .= join( ' ', apply_filters( 'nav_menu_css_class', array_filter( $classes ), $item ) );
             $class_names = ' class="'. esc_attr( $class_names ) . '"';
-           
+
             $output .= $indent . '<li ' . $value . $class_names .'>';
 
             $attributes  = ! empty( $item->attr_title ) ? ' title="'  . esc_attr( $item->attr_title ) .'"' : '';
@@ -458,18 +458,18 @@ class footer_links_walker extends Walker_Nav_Menu
             $item_output .= '<a'. $attributes .'>';
             $item_output .= $args->link_before .apply_filters( 'the_title', $item->title, $item->ID );
             $item_output .= $args->link_after;
-            
+
             $item_output .= '</a>';
             $item_output .= $args->after;
 
             $output .= apply_filters( 'walker_nav_menu_start_el', $item_output, $item, $depth, $args );
             }
-            
+
         function start_lvl(&$output, $depth) {
             $indent = str_repeat("\t", $depth);
             $output .= "\n$indent<ul class=\"flyout\">\n";
         }
-            
+
         function display_element( $element, &$children_elements, $max_depth, $depth=0, $args, &$output )
             {
                 $id_field = $this->db_fields['id'];
@@ -477,95 +477,95 @@ class footer_links_walker extends Walker_Nav_Menu
                     $args[0]->has_children = ! empty( $children_elements[$element->$id_field] );
                 }
                 return parent::display_element( $element, $children_elements, $max_depth, $depth, $args, $output );
-            }       
+            }
 }
 
 
 // Add the Meta Box to the homepage template
-function add_homepage_meta_box() {  
-    add_meta_box(  
-        'homepage_meta_box', // $id  
-        'Custom Fields', // $title  
-        'show_homepage_meta_box', // $callback  
-        'page', // $page  
-        'normal', // $context  
-        'high'); // $priority  
-}  
+function add_homepage_meta_box() {
+    add_meta_box(
+        'homepage_meta_box', // $id
+        'Custom Fields', // $title
+        'show_homepage_meta_box', // $callback
+        'page', // $page
+        'normal', // $context
+        'high'); // $priority
+}
 add_action('add_meta_boxes', 'add_homepage_meta_box');
 
-// Field Array  
-$prefix = 'custom_';  
-$custom_meta_fields = array(  
-    array(  
-        'label'=> 'Homepage tagline area',  
-        'desc'  => 'Displayed underneath page title. Only used on homepage template. HTML can be used.',  
-        'id'    => $prefix.'tagline',  
-        'type'  => 'textarea' 
-    )  
-);  
+// Field Array
+$prefix = 'custom_';
+$custom_meta_fields = array(
+    array(
+        'label'=> 'Homepage tagline area',
+        'desc'  => 'Displayed underneath page title. Only used on homepage template. HTML can be used.',
+        'id'    => $prefix.'tagline',
+        'type'  => 'textarea'
+    )
+);
 
-// The Homepage Meta Box Callback  
-function show_homepage_meta_box() {  
-global $custom_meta_fields, $post;  
-// Use nonce for verification  
-echo '<input type="hidden" name="custom_meta_box_nonce" value="'.wp_create_nonce(basename(__FILE__)).'" />';  
-  
-    // Begin the field table and loop  
-    echo '<table class="form-table">';  
-    foreach ($custom_meta_fields as $field) {  
-        // get value of this field if it exists for this post  
-        $meta = get_post_meta($post->ID, $field['id'], true);  
-        // begin a table row with  
-        echo '<tr> 
-                <th><label for="'.$field['id'].'">'.$field['label'].'</label></th> 
-                <td>';  
-                switch($field['type']) {  
-                    // text  
-                    case 'text':  
-                        echo '<input type="text" name="'.$field['id'].'" id="'.$field['id'].'" value="'.$meta.'" size="60" /> 
-                            <br /><span class="description">'.$field['desc'].'</span>';  
+// The Homepage Meta Box Callback
+function show_homepage_meta_box() {
+global $custom_meta_fields, $post;
+// Use nonce for verification
+echo '<input type="hidden" name="custom_meta_box_nonce" value="'.wp_create_nonce(basename(__FILE__)).'" />';
+
+    // Begin the field table and loop
+    echo '<table class="form-table">';
+    foreach ($custom_meta_fields as $field) {
+        // get value of this field if it exists for this post
+        $meta = get_post_meta($post->ID, $field['id'], true);
+        // begin a table row with
+        echo '<tr>
+                <th><label for="'.$field['id'].'">'.$field['label'].'</label></th>
+                <td>';
+                switch($field['type']) {
+                    // text
+                    case 'text':
+                        echo '<input type="text" name="'.$field['id'].'" id="'.$field['id'].'" value="'.$meta.'" size="60" />
+                            <br /><span class="description">'.$field['desc'].'</span>';
                     break;
-                    
-                    // textarea  
-                    case 'textarea':  
-                        echo '<textarea name="'.$field['id'].'" id="'.$field['id'].'" cols="80" rows="4">'.$meta.'</textarea> 
-                            <br /><span class="description">'.$field['desc'].'</span>';  
-                    break;  
-                } //end switch  
-        echo '</td></tr>';  
-    } // end foreach  
-    echo '</table>'; // end table  
-}  
 
-// Save the Data  
-function save_homepage_meta($post_id) {  
-    global $custom_meta_fields;  
-  
-    // verify nonce  
-    if (!wp_verify_nonce($_POST['custom_meta_box_nonce'], basename(__FILE__)))  
-        return $post_id;  
-    // check autosave  
-    if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE)  
-        return $post_id;  
-    // check permissions  
-    if ('page' == $_POST['post_type']) {  
-        if (!current_user_can('edit_page', $post_id))  
-            return $post_id;  
-        } elseif (!current_user_can('edit_post', $post_id)) {  
-            return $post_id;  
-    }  
-  
-    // loop through fields and save the data  
-    foreach ($custom_meta_fields as $field) {  
-        $old = get_post_meta($post_id, $field['id'], true);  
-        $new = $_POST[$field['id']];  
-        if ($new && $new != $old) {  
-            update_post_meta($post_id, $field['id'], $new);  
-        } elseif ('' == $new && $old) {  
-            delete_post_meta($post_id, $field['id'], $old);  
-        }  
-    } // end foreach  
-}  
-add_action('save_post', 'save_homepage_meta');  
+                    // textarea
+                    case 'textarea':
+                        echo '<textarea name="'.$field['id'].'" id="'.$field['id'].'" cols="80" rows="4">'.$meta.'</textarea>
+                            <br /><span class="description">'.$field['desc'].'</span>';
+                    break;
+                } //end switch
+        echo '</td></tr>';
+    } // end foreach
+    echo '</table>'; // end table
+}
+
+// Save the Data
+function save_homepage_meta($post_id) {
+    global $custom_meta_fields;
+
+    // verify nonce
+    if (!wp_verify_nonce($_POST['custom_meta_box_nonce'], basename(__FILE__)))
+        return $post_id;
+    // check autosave
+    if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE)
+        return $post_id;
+    // check permissions
+    if ('page' == $_POST['post_type']) {
+        if (!current_user_can('edit_page', $post_id))
+            return $post_id;
+        } elseif (!current_user_can('edit_post', $post_id)) {
+            return $post_id;
+    }
+
+    // loop through fields and save the data
+    foreach ($custom_meta_fields as $field) {
+        $old = get_post_meta($post_id, $field['id'], true);
+        $new = $_POST[$field['id']];
+        if ($new && $new != $old) {
+            update_post_meta($post_id, $field['id'], $new);
+        } elseif ('' == $new && $old) {
+            delete_post_meta($post_id, $field['id'], $old);
+        }
+    } // end foreach
+}
+add_action('save_post', 'save_homepage_meta');
 
 ?>

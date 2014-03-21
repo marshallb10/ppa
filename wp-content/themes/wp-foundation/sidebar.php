@@ -1,5 +1,7 @@
 				<div id="sidebar1" class="sidebar three columns" role="complementary">
 
+          <img src="http://localhost/ppa/wp-content/uploads/2014/03/homeowners.jpg" alt="homeowners" class="aligncenter size-full wp-image-80 sidebar-img">
+
 					<div class="panel">
 				
 						<?php if ( is_active_sidebar( 'sidebar1' ) ) : ?>
