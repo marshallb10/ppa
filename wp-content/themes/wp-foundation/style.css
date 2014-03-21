@@ -10,6 +10,17 @@ Tags: bones, zurb, foundation, 320press, clean, basic
 
 /* layout */
 
+/*
+Prospector Public Adjuster specifics:
+Gold = #FDBE57
+Dark blue = #004B8D
+Green = #78A22F
+Light blue = #569BBE
+Cream = #FFECB3
+Dk Gray (text) = #47474D
+
+*/
+
 .more-link{
 	white-space: nowrap;
 }
@@ -141,8 +152,6 @@ div.footer-links ul li a, div.footer-links ul li a:visited, div.footer-links ul 
   color: #004B8D;
 }
 
-
-
 .mobile-nav-container{
 	margin-left: -100%;
 	float: left;
@@ -262,13 +271,55 @@ div.widget_nav_menu li a {
 /* typography */
 h1, h2, h3, h4, h5, h6{ font-family: 'Open Sans', sans-serif; font-weight: 300;}
 
-.siteinfo h1{ font-weight: 800; }
+h1 {
+  font-size: 32px;
+  color: #004B8D;
+  font-weight: bold;
+}
+
+h1.hug-above {
+  margin-top: -17px;
+}
+
+h1.no-margin {
+  margin: 0;
+}
 
 h2 {
   font-size: 20px;
+  color: #569BBE;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
   color: black;
-  font-weight: bolder;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
   text-align: center;
+}
+
+h5 {
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(left,  #ffffff 0%, #fdbe57 50%, #fdbe57 51%, #ffffff 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(50%,#fdbe57), color-stop(51%,#fdbe57), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #ffffff 0%,#fdbe57 50%,#fdbe57 51%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #ffffff 0%,#fdbe57 50%,#fdbe57 51%,#ffffff 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #ffffff 0%,#fdbe57 50%,#fdbe57 51%,#ffffff 100%); /* IE10+ */
+  background: linear-gradient(to right,  #ffffff 0%,#fdbe57 50%,#fdbe57 51%,#ffffff 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+  margin-top: 33px;
+  margin-bottom: 33px;
+  padding: 10px 0;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
 }
 
 /* post styling */
@@ -305,6 +356,7 @@ img.alignleft{
 
 img.alignright{
 	margin-left: 10px;
+  margin-right: 10px;
 	float: right;
 }
 

@@ -26,6 +26,8 @@
 		<!-- For everything else -->
 		<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
 
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
 
     <script type='text/javascript' src='http://localhost/ppa/wp-content/themes/wp-foundation/javascripts/jquery.min.js '></script>
 
@@ -85,20 +87,6 @@
             <p class="head">The bottom line is that insurance companies make money when they don't pay claims.</p>
             <p class="sub-text">--Senior Executor, National Association of Insurance Commissioners</p>
           </div>
-
-<!---->
-<!--          <div class="show-for-small menu-action">-->
-<!--            <a href="#sidebar" id="mobile-nav-button" class="sidebar-button small secondary button">-->
-<!--							<svg xml:space="preserve" enable-background="new 0 0 48 48" viewBox="0 0 48 48" height="18px" width="18px" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="Layer_1" version="1.1">-->
-<!--								<line y2="8.907" x2="48" y1="8.907" x1="0" stroke-miterlimit="10" stroke-width="8" stroke="#000000" fill="none"/>-->
-<!--								<line y2="24.173" x2="48" y1="24.173" x1="0" stroke-miterlimit="10" stroke-width="8" stroke="#000000" fill="none"/>-->
-<!--								<line y2="39.439" x2="48" y1="39.439" x1="0" stroke-miterlimit="10" stroke-width="8" stroke="#000000" fill="none"/>-->
-<!--								Menu-->
-<!--							</svg>-->
-<!--						</a>-->
-<!--					</div>-->
-
-
 
 				</header> <!-- end header -->
       </div>
