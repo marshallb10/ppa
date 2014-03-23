@@ -50,7 +50,6 @@
 
 		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 
-
 		<!-- bring in theme options styles -->
 		<?php
 
@@ -83,11 +82,32 @@
 						<a href="<?php echo get_site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/ppa-logo.gif" /></a>
 					</div>
 
+          <?php
+          $header_dynamic_image = get_post_meta($post->ID, "header-image", true);
+          $header_dynamic_quote = get_post_meta($post->ID, "header-quote", true);
+          $header_dynamic_quote_source = get_post_meta($post->ID, "header-quote-source", true);
+          if ($header_dynamic_image) {
+            echo '<div class="eight columns header-image">';
+            echo '<img src="'. $header_dynamic_image . '" />';
+            echo '</div>';
+          }
+          else if ($header_dynamic_quote || $header_dynamic_quote_source) {
+            echo '<div class="eight columns callout">';
+            if ($header_dynamic_quote) {
+              echo '<p class="head">' . $header_dynamic_quote . '</p>';
+            }
+            if ($header_dynamic_quote_source) {
+              echo '<p class="sub-text">' . $header_dynamic_quote_source . '</p>';
+            }
+            echo '</div>';
+          } else { ?>
           <div class="eight columns callout">
             <p class="head">The bottom line is that insurance companies make money when they don't pay claims.</p>
             <p class="sub-text">--Senior Executor, National Association of Insurance Commissioners</p>
           </div>
-
+          <?php
+          }
+          ?>
 				</header> <!-- end header -->
       </div>
       <hr />

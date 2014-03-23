@@ -82,6 +82,16 @@ header .callout p.sub-text {
   font-size: 14px;
 }
 
+header .header-image {
+  padding: 0;
+  margin: 0;
+  height: 102px;
+}
+
+header .header-image img {
+  float: right;
+}
+
 ul.top-nav {
   background-color: #FFFFFF;
 }
@@ -165,7 +175,7 @@ div.footer-links ul li a, div.footer-links ul li a:visited, div.footer-links ul 
 	margin-left: 0;
 }
 
-.active #main{
+.active #content{
 	margin-left: 55%;
 }
 
@@ -281,8 +291,8 @@ h1.hug-above {
   margin-top: -17px;
 }
 
-h1.no-margin {
-  margin: 0;
+h1.content-header {
+  margin-top: 0;
 }
 
 h2 {
